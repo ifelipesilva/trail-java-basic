@@ -1,5 +1,5 @@
 public interface AparelhoTelefonico {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
+    void call(String number);
+    void accecptCall();
+    void voiceMail();
 }
